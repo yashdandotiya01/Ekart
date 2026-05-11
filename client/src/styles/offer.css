@@ -1,0 +1,38 @@
+.offer-banner{
+    width: 84%;
+    height: 350px;
+    margin: 80px auto;
+    border-radius: 30px;
+    background-image:
+    linear-gradient(rgba(0,0,0,0.4),
+    rgba(0,0,0,0.4)),
+    url("https://images.unsplash.com/photo-1441986300917-64674bd600d8");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 80px;
+
+    color: white;
+}
+
+.offer-small{
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.offer-banner h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.offer-banner button{
+    padding: 14px 30px;
+    background: #00b894;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}

@@ -1,0 +1,40 @@
+.details-container{
+    padding: 60px 8%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.details-image{
+    width: 450px;
+    border-radius: 20px;
+}
+
+.details-content h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.details-content h2{
+    color: #00b894;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.details-content p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.cart-btn{
+    padding: 15px 35px;
+    background: #111;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.cart-btn:hover{
+    background: #00b894;
+}

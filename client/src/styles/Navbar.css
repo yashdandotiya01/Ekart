@@ -1,0 +1,61 @@
+.navbar{
+    width: 100%;
+    padding: 22px 8%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    background: linear-gradient(to right,#00b894,#0984e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-icon{
+    color: #00b894;
+    font-size: 28px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 35px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-links a{
+    transition: 0.3s;
+}
+
+.nav-links a:hover{
+    color: #00b894;
+}
+
+.user-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.username{
+    font-weight: 600;
+    color: #00b894;
+}
+
+.logout-btn{
+    padding: 10px 18px;
+    background: crimson;
+    color: white;
+    border-radius: 8px;
+}
